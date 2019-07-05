@@ -2,13 +2,13 @@
 Text analytics on Verizon's financial transcripts
 
 Code contains -
-Part I - READING IN DATA + BASIC PREPROCESSING
-Part II - DATA PROCESSING + FEATURE ENGINEERING
-Part III - PRELIMINARY DATA ANALYSIS 
-Part IV - FREQUENCY ANALYSIS
-Part V - LDA TOPIC MODELING
-Part VI - TOPIC SENTIMENT ANALYSIS
-Part VII - SPEAKER (CEO/CFO) SENTIMENT ANALYSIS
+*Part I - READING IN DATA + BASIC PREPROCESSING
+*Part II - DATA PROCESSING + FEATURE ENGINEERING
+*Part III - PRELIMINARY DATA ANALYSIS 
+*Part IV - FREQUENCY ANALYSIS
+*Part V - LDA TOPIC MODELING
+*Part VI - TOPIC SENTIMENT ANALYSIS
+*Part VII - SPEAKER (CEO/CFO) SENTIMENT ANALYSIS
 
 
 The analysis is over a total of 261 financial documents pertaining to Verizon (NYSE: VZ) over a 15-year period (2002 Q2 - 2017 Q3). The documents primarily consisted of quarterly earnings calls, press announcements, and investor conference calls. Using these documents, my primary goal was to reduce “noise” and optimize information extraction. To do this, I began by using topic modeling techniques to determine the most important themes to further analyze. I then performed a variety of sentiment analyses to evaluate the views and attitudes towards these important topics over time. Additionally, I focused on the sentiment of Verizon’s CEO and CFO since they are top-level management and tend to discuss significant, big-picture items that are inextricably linked to the overall health of the company. 
